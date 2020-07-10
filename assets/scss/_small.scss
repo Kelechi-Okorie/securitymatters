@@ -1,0 +1,34 @@
+.author-avatar img {
+  clip-path: circle(50% at 50% 50%);
+}
+
+div#entry-author-single-page {
+  a,
+  span {
+    font-size: 14px;
+  }
+}
+
+/* Content.php */
+article.content-article-post-singular {
+  /*  margin: 0 2%; */
+}
+
+/* Widget area - Widget Search */
+
+/* Widget area - Recent Posts */
+section.widget_recent_entries {
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  ul li {
+    margin-top: 12px;
+    font-size: $articleFontSize;
+    text-decoration: underline;
+
+    a {
+      color: $primaryColor;
+    }
+  }
+}

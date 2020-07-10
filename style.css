@@ -1,0 +1,258 @@
+/*
+Theme Name: Security Matters
+Text Domain: securitymatters
+Version: 0.1
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: This is the theme for Security Matters blog
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Kelechi Okorie
+Author URI: N/A
+Theme URI: N/A
+*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input,
+select {
+  vertical-align: middle; }
+
+/**
+* Beginning of the site's css
+*/
+/* Main Navigation */
+.navbar-brand {
+  color: #cd2653 !important; }
+
+/* Aside */
+aside.sidebar {
+  background-color: white;
+  padding: 17px 20px; }
+
+aside.sidebar section ul,
+ul {
+  list-style-type: none; }
+
+img.wp-post-image {
+  width: 100%; }
+
+/* Content */
+div.entry-author-bio div.author-description {
+  font-size: 0.8rem; }
+
+div.entry-author-bio div.author-description h6 {
+  font-size: inherit; }
+
+div.socials ul {
+  margin: 0; }
+
+div.socials ul li {
+  margin-left: 12px; }
+
+article.post p {
+  font-size: 20px; }
+
+/* Entry-header */
+.post-categories {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-start;
+  flex: 0 0 auto; }
+
+.post-categories li {
+  /* display: inline; */
+  margin-right: 5px;
+  background-color: #f5f7f8;
+  border-radius: 10px;
+  padding: 2px 4px; }
+
+.post-categories li a {
+  color: #cd2653; }
+
+/* Footer */
+footer#site-footer {
+  padding: 20px 2%;
+  background-color: #23282d;
+  color: white; }
+
+p.footer-copyright {
+  text-align: center;
+  margin-bottom: 0; }
+
+p.footer-copyright a {
+  color: #cd2653; }
+
+.author-avatar img {
+  clip-path: circle(50% at 50% 50%); }
+
+div#entry-author-single-page a,
+div#entry-author-single-page span {
+  font-size: 14px; }
+
+/* Content.php */
+article.content-article-post-singular {
+  /*  margin: 0 2%; */ }
+
+/* Widget area - Widget Search */
+/* Widget area - Recent Posts */
+section.widget_recent_entries h2 {
+  font-size: 1.1rem; }
+
+section.widget_recent_entries ul li {
+  margin-top: 12px;
+  font-size: 20px;
+  text-decoration: underline; }
+  section.widget_recent_entries ul li a {
+    color: #cd2653; }
